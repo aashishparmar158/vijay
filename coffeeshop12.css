@@ -1,0 +1,111 @@
+.g1{
+    background-color:aliceblue;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    width:650px;
+    height:650px;
+    position: relative;
+    margin: auto;
+    margin-top: 250px;
+   margin-right: 400px;
+   opacity: .8;
+   animation-name: thirdbox;
+   animation-duration: 2s;   
+   
+}
+
+
+@keyframes thirdbox{
+    0%{opacity:0;}
+    100%{opacity:.8;}
+}
+   
+
+#gj1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #006666;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+
+}
+#gj2{
+    font-size: 23px;
+    color: rgb(75, 73, 73);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+
+}
+.j1{
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+#gj3{
+    color: #11adad;
+    text-decoration: none;
+}
+#gj3:hover{
+    color: red;
+   
+}
+.g2{
+    background-color: #006666;
+    display: inline;
+    width: 150px;    
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    opacity: .9;
+    animation-name: thirdbox2;
+    animation-duration: 2s;
+    transition: transform .5s;
+}
+.g2:hover{
+    transform:scale(1.2,1.2);
+}
+   
+ 
+ 
+ @keyframes thirdbox2{
+     0%{opacity:0;}
+     100%{opacity:1;}
+
+}
+.g2:hover{
+    background-color: #006666;
+    display: inline;
+    text-align: center;
+    width: 150px;    
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 10px;
+    opacity: .7;
+    bottom: 50px;
+   
+
+}
+#gj3{
+    width: fit-content;
+    display: inline-block;
+}
+.k1{
+    position: relative;
+    width: 700px;
+    height: 850px;
+    margin: auto;
+    margin-top: 250px;
+    margin-right: 400px;
+}
